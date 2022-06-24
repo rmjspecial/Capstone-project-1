@@ -21,6 +21,10 @@
 
 ## Live demo
 
+(https://rmjspecial.github.io/Capstone-project-1/)
+
+## link to video
+(https://www.loom.com/share/57e79f8c8a5e439195c07b5e005f983f)
  
 
 ## Getting Started
