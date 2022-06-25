@@ -4,7 +4,7 @@ const navLinks = document.querySelectorAll('.navLink');
 const djData = [
   {
     hidden: false,
-    photo: 'image/fruit.jpg',
+    photo: 'image/food1.png',
     alt: 'fruit salad Photo',
     name: 'fruit salad',
     foodtype: 'special delicacy',
@@ -13,7 +13,7 @@ const djData = [
 
   {
     hidden: false,
-    photo: 'image/jam.png',
+    photo: 'image/food7.png',
     alt: 'jam Photo',
     name: 'jam and pepperoni',
     foodtype: 'special delicacy',
@@ -22,7 +22,7 @@ const djData = [
 
   {
     hidden: true,
-    photo: 'image/bread-sauce.jpg',
+    photo: 'image/food9.png',
     alt: 'Dimitri Vegas & Like Mike lastfm Photo',
     name: 'Dimitri Vegas & Like Mike',
     foodtype: 'special delicacy',
@@ -31,7 +31,7 @@ const djData = [
 
   {
     hidden: true,
-    photo: 'image/beef.jpg',
+    photo: 'image/food4.png',
     alt: 'beef Photo',
     name: 'beef dish',
     foodtype: 'special delicacy',
@@ -40,7 +40,7 @@ const djData = [
 
   {
     hidden: true,
-    photo: 'image/hot-sauce.jpg',
+    photo: 'image/food1.png',
     alt: 'sauce photo',
     name: 'sauce',
     foodtype: 'special delicacy',
@@ -49,7 +49,7 @@ const djData = [
 
   {
     hidden: true,
-    photo: 'image/fish.jpg',
+    photo: 'image/food5.png',
     alt: 'fish sauce Photo',
     name: 'fish sauce',
     foodtype: 'special delicacy',
