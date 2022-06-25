@@ -1,11 +1,11 @@
-@import url("http://fonts.cdnfonts.com/css/cocogoose");
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "COCOGOOSE", sans-serif;
+  font-family: 'COCOGOOSE', sans-serif;
 }
 
 .desktop-nav-1 {
@@ -43,7 +43,7 @@
 }
 
 .mobile-paragraph {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   border: 3px solid #fff;
   margin: 20px;
   padding: 11px;
@@ -68,7 +68,7 @@
 
 .intro-heading h2 {
   margin-bottom: 10px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #ec5242;
   font-weight: 500;
 }
@@ -80,7 +80,7 @@
 }
 
 .mobile-location {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   padding-left: 20px;
   padding-top: 10px;
   color: #606060;
@@ -147,7 +147,7 @@
 }
 
 .header h3 {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #fff;
   font-weight: 500;
   font-size: 24px;
@@ -185,13 +185,13 @@
 
 .activity p {
   color: #fff;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 15px;
   font-weight: 300;
 }
 
 .mainprogram button {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #fff;
   background-color: #ec5242;
   text-align: center;
@@ -204,7 +204,7 @@
 }
 
 .menu {
-  flex-direction: column;
+  flex-direction: row;
   padding: 20px;
 }
 
@@ -220,7 +220,7 @@
 }
 
 .menuHeader h3 {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #272a31;
   font-size: 24px;
   font-weight: 600;
@@ -235,14 +235,6 @@
   flex-direction: column;
 }
 
-/* .menu {
-  background-image: url(./capstone_assets/chessboard.jpg);
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: 15%;
-  margin: 50px 20px 0 20px;
-} */
-
 .menu img {
   width: 185px;
   padding: 25px;
@@ -254,7 +246,7 @@
 }
 
 .menuInfo h2 {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #14161a;
   font-weight: 800;
   font-size: 21px;
@@ -263,7 +255,7 @@
 
 .menuInfo span {
   font-style: italic;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #ec5242;
   font-weight: 500;
   font-size: 16px;
@@ -274,14 +266,14 @@
 }
 
 .menuInfo p {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #3a3a3a;
   font-weight: 600;
   font-size: 14px;
 }
 
 .menu-button {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   display: flex;
   align-self: stretch;
   align-items: center;
@@ -313,7 +305,7 @@ footer {
 }
 
 .footerHeader h2 {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #fff;
   font-weight: 700;
   font-size: 24px;
@@ -322,6 +314,14 @@ footer {
 .footerHeader hr {
   border: 1px solid #ec5242;
   width: 35px;
+}
+
+.partnerIcons {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  flex-wrap: wrap;
 }
 
 .partnerone {
@@ -337,6 +337,24 @@ footer {
 .partnerthree {
   padding: 20px;
   width: 300px;
+}
+
+.partnerfour {
+  padding: 20px;
+  width: 280px;
+}
+
+.partnerfive {
+  padding: 20px;
+  width: 280px;
+}
+
+.imgone .partnerfour {
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  overflow: hidden;
 }
 
 .imgone {
@@ -357,6 +375,14 @@ footer {
 
 .imgone .partnerthree {
   max-width: 100%;
+}
+
+.imgone .partnerfive {
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  overflow: hidden;
 }
 
 .Footerlogo {
@@ -383,7 +409,7 @@ footer {
 }
 
 .copyrights p {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 13px;
   padding-bottom: 10px;
   color: #3a3a3a;
@@ -420,7 +446,7 @@ footer {
 }
 
 .about-Email-paragraph {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 600;
   font-size: 16px;
   color: #565656;
@@ -451,7 +477,7 @@ footer {
 }
 
 .OurLogo h2 {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   font-weight: 400;
 }
@@ -475,23 +501,25 @@ footer {
 }
 
 .dishes {
-  background-image: url(image/bread-sauce.jpg);
+  background-image: url(image/fish.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: contain;
   position: relative;
+  background-position: center;
 }
 
 .dish {
   background-image: url(image/bread-sauce.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: contain;
   position: relative;
+  background-position: center;
 }
 
 .dishes-overlay {
   position: absolute;
   background: #ec5242;
-  opacity: 0.2;
+  opacity: 0.5;
   width: 100%;
   height: 100%;
 }
@@ -501,36 +529,39 @@ footer {
 }
 
 .dishes-text h2 {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #fff;
   font-size: 32px;
   font-weight: 600;
-  z-index: 1;
+  z-index: 99;
+  backdrop-filter: brightness(100%);
 }
 
 .dishes-text span {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   color: #fff;
   font-size: 24px;
   font-weight: 600;
-  z-index: 1;
+  z-index: 99;
+  backdrop-filter: brightness(100%);
 }
 
 .dish-overlay {
   position: absolute;
   background: #ec5242;
-  opacity: 0.2;
+  opacity: 0.5;
   width: 100%;
   height: 100%;
 }
 
 section.dish-text {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #fff;
   font-size: 28px;
   font-weight: 500;
   z-index: 1;
+  padding: 0 40px;
 }
 
 section.dish-text h2 {
@@ -538,6 +569,18 @@ section.dish-text h2 {
   align-items: center;
   font-size: 26px;
   padding-top: 50px;
+  backdrop-filter: brightness(100%);
+}
+
+section.dish-text span {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  z-index: 99;
+  padding-bottom: 60px;
+  backdrop-filter: brightness(100%);
 }
 
 .desktop-mainprogramBtn {
@@ -546,6 +589,7 @@ section.dish-text h2 {
 
 .desktop-dishes {
   flex-direction: column;
+  gap: 20px;
 }
 
 /* Mobile About Page */
@@ -567,6 +611,8 @@ section.dish-text h2 {
     justify-content: flex-end;
     gap: 30px;
     margin-right: 10%;
+    padding-top: 4px;
+    padding-bottom: 4px;
   }
 
   .facebook {
@@ -578,7 +624,7 @@ section.dish-text h2 {
   }
 
   .desktop-nav-1 ul li a {
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     text-decoration: none;
     color: #fff;
     margin-right: auto;
@@ -608,7 +654,7 @@ section.dish-text h2 {
   }
 
   .desktop-nav-2 ul li a {
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     text-decoration: none;
     color: #747474;
     font-weight: 600;
@@ -629,7 +675,7 @@ section.dish-text h2 {
 
   .desktop-nav-2 ul li button {
     text-align: center;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
     border: 4px solid #ec5242;
     padding: 10px;
@@ -715,7 +761,7 @@ section.dish-text h2 {
 
   .desktop-mainprogramBtn {
     display: inline;
-    font-family: "Lato", sans-serif;
+    font-family: 'Lato', sans-serif;
     align-self: center;
     color: #dddee3;
     padding: 20px;
