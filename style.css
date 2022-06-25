@@ -804,7 +804,7 @@ section.dish-text span {
   .partnerIcons {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 51px;
   }
 
   .partnerone {
